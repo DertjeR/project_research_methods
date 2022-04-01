@@ -1,5 +1,6 @@
 # project_countword
 
+---only for RUG students and/or RUG staff with a p-number---
 This repository contains an explanation and the code to grep the frequency of a specified word from multiple files in a directory
 
 ## Description
@@ -16,47 +17,24 @@ These are the prerequisites:
 
 ### Installing
 
-* Download
+* Download (countword.sh)
+* Open your terminal
+* run the following command to make the file executable
+```
+chmod +x countword.sh
+```
 
 ### Executing program
 
-* Open your terminal
-* Step-by-step bullets
+* Step-by-sep commands to access the karora server, replace 's1231234 with your own s- or p-number
 ```
-code blocks for commands
+ssh s1231234@karora.let.rug.nl
 ```
+* Usage: ./countword.sh YEAR MONTH WORD
+* You have to execute the file everytime you want to change your directory and/or word
 
-## Help
+## Author
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-Dertje Roggeveen
-Linkedin: [dertje-roggeveen](www.linkedin.com/in/dertje-roggeveen)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+Contributors names and contact info:
+* Dertje Roggeveen
+* Linkedin: [dertje-roggeveen](www.linkedin.com/in/dertje-roggeveen)
