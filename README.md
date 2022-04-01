@@ -1,6 +1,6 @@
 # project_countword
 
----only for RUG students and/or RUG staff with a p-number---
+***only for RUG students and/or RUG staff with a p-number***
 This repository contains an explanation and the code to grep the frequency of a specified word from multiple files in a directory
 
 ## Description
@@ -17,7 +17,7 @@ These are the prerequisites:
 
 ### Installing
 
-* Download (countword.sh)
+* Download countword.sh
 * Open your terminal
 * run the following command to make the file executable
 ```
@@ -26,7 +26,7 @@ chmod +x countword.sh
 
 ### Executing program
 
-* Step-by-sep commands to access the karora server, replace 's1231234 with your own s- or p-number
+* Command to access the karora server, replace 's1231234 with your own s- or p-number
 ```
 ssh s1231234@karora.let.rug.nl
 ```
